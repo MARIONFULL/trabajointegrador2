@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+html {
+    font-size: 62.5%;
+    /* 1rem = 10px */
+}
+
+
+header {
+    margin-right: 80px;
+    max-width: 1200px;
+    background-color: rgb(53, 51, 51);
+
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+nav img {
+    margin-right: 300px;
+    height: 40px;
+    width: 60px;
+
+
+}
+
+header nav a {
+    display: inline-flexbox;
+    color: rgb(102, 100, 100);
+
+    padding: 3px;
+    font-size: 12px;
+
+    margin-left: 4rem;
+    text-decoration: none;
+
+
+
+}
+
+
+header nav a:hover {
+    color: white;
+
+
+}
+
+
+
+body {
+    font-size: 1.6rem;
+    background-color: #eee;
+}
+
+.carousel-inner {
+    max-width: 1200px;
+    max-height: 700px;
+
+}
+
+
+
+
+.container {
+
+    max-width: 100rem;
+    max-height: 1000px;
+    margin: 0 auto;
+
+}
+
+h1 {
+    text-align: center;
+    margin: 5rem 0;
+    text-transform: uppercase;
+}
+
+
+.container2 p {
+
+    text-align: center;
+    font-size: 15px;
+}
+
+.container2 h4 {
+
+    text-align: center;
+    font-size: 15px;
+}
+
+.carousel-inner {
+    font-size: 20px;
+    color: #eee;
+
+
+}
+
+
+
+
+
+
+.card-body p {
+    font-size: 10px;
+
+
+}
+
+.carousel-item h5{
+    
+    font-size: 2rem;
+    color:white;
+    margin: 0%;
+    
+    left: 50%;
+
+/* position: absolute;
+
+    top:10%
+    transform: translate(-50%, -50%);
+ */
+}
+
+
+
+/* Galeria Flex 
+
+
+.galeria-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+}
+ */
+
+.container2 {
+    width: 100%;
+    height: 30rem;
+    flex-grow: 1;
+    object-fit: cover;
+
+
+
+}
+
+.card-group {
+    margin-left: 300px;
+    width: 50%;
+    height: 30rem;
+    flex-grow: 1;
+    object-fit: cover;
+    margin-bottom: 50px;
+
+
+}
+
+.playa img {
+
+    flex-basis: 100%;
+    max-height: 200px;
+
+
+
+
+}
+
+
+
+.finalpag {
+    margin-left: 400px;
+
+    max-width: 600px;
+}
+
+#nombres {
+    width: 250px;
+    height: 30px;
+}
+
+#apellidos {
+    width: 250px;
+    height: 30px;
+    margin-left: 10px;
+
+}
+
+
+.formulario {
+    max-width: 1000px;
+}
+
+
+footer {
+
+    background-color: #1B2631;
+    padding: 10px;
+    display: flex;
+    margin-top: 470px;
+    align-items: center;
+
+
+}
+
+
+footer nav a {
+
+    padding: 5px;
+    font-size: 15px;
+    margin-left: 10px;
+    text-decoration: none;
+
+}
+
+footer nav a:hover {
+    color: #fff;
+
+
+}
